@@ -44,7 +44,7 @@ function Projects() {
             width={400}
             height={400}
             alt="project"
-            className="object-cover h-80 w-64 sm:h-[500px] sm:w-[500px] object-top"
+            className="object-cover h-80 w-64 sm:h-[550px] sm:w-[500px] object-top"
           />
           <h3 className=" text-2xl md:text-3xl">Levelground</h3>
           <Link
@@ -72,7 +72,7 @@ function Projects() {
             width={400}
             height={400}
             alt="project"
-            className="object-cover h-80 w-64 sm:h-[500px] sm:w-[500px] object-top"
+            className="object-cover h-80 w-64 sm:h-[550px] sm:w-[500px] object-top"
           />
           <h3 className="text-2xl md:text-3xl">Restaurant.com</h3>
           <Link
