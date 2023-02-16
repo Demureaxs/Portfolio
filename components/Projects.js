@@ -28,7 +28,7 @@ function Projects() {
       </h3>
 
       <div className="w-full flex space-x-5 mb-16 overflow-x-scroll p-10 snap-x snap-mandatory z-10 scrollbar-thin scrollbar-track-gray-500/20 scrollbar-thumb-[#faab0a]/60">
-        <div className="flex flex-col justify-center items-center w-screen flex-shrink-0 mt-16 sm:mt-36 space-y-10 rounded-sm overflow-hidden snap-center">
+        <div className="flex flex-col justify-center items-center w-full flex-shrink-0 mt-16 sm:mt-36 space-y-10 rounded-sm overflow-hidden snap-center">
           <motion.img
             initial={{
               y: -300,
@@ -56,7 +56,7 @@ function Projects() {
           </Link>
         </div>
 
-        <div className="flex flex-col justify-center items-center flex-shrink-0 mt-16 sm:mt-36 w-screen space-y-10 rounded-sm overflow-hidden snap-center">
+        <div className="flex flex-col justify-center items-center flex-shrink-0 mt-16 sm:mt-36 w-full space-y-10 rounded-sm overflow-hidden snap-center">
           <motion.img
             initial={{
               y: -300,

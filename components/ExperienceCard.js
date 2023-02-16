@@ -13,7 +13,7 @@ import { FaNodeJs } from 'react-icons/fa';
 
 function ExperienceCard(props) {
   return (
-    <article className="flex flex-col mt-20 rounded-lg justify-center items-center space-y-2 sm:space-y-7 flex-shrink-0 w-screen md:w-screen xl:w-screen snap-center bg-[#292929] p-5 sm:p-10 ">
+    <article className="flex flex-col mt-20 rounded-lg justify-center items-center space-y-2 sm:space-y-7 flex-shrink-0 w-screen md:w-screen xl:w-screen snap-center snap-mandatory bg-[#292929] p-5 sm:p-10 ">
       <motion.img
         initial={{ y: -100, opacity: 0 }}
         transistion={{ duration: 1.2 }}
