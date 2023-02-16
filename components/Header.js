@@ -22,7 +22,7 @@ function Header() {
         className="flex items-center"
       >
         <SocialIcon
-          url="https://www.linkedin.com/in/matt-smith-4a1445248/"
+          url="https://www.linkedin.com/in/martyn-clarke-4a1445248/"
           fgColor="gray"
           bgColor="transparent"
           target="_blank"
