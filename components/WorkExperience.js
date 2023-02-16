@@ -35,13 +35,13 @@ function WorkExperience() {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1.5 }}
-      className="flex relative h-screen overflow-hidden flex-col items-center text-center md:flex-row max-w-screen-xl px-10 justify-evenly mx-auto"
+      className="flex relative min-h-screen overflow-hidden flex-col items-center text-center md:flex-row max-w-screen-xl px-10 justify-evenly mx-auto"
     >
       <h3 className="absolute top-20 sm:top-24 uppercase tracking-[20px] text-gray-500 text-2xl text-center">
         Experience
       </h3>
 
-      <div className="w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory scrollbar-thin scrollbar-track-gray-500/20 scrollbar-thumb-[#faab0a]/60">
+      <div className="w-full flex space-x-5 mb-16 pb-16 overflow-x-scroll p-10 mt-16 snap-x snap-mandatory scrollbar-thin scrollbar-track-gray-500/20 scrollbar-thumb-[#faab0a]/60">
         <ExperienceCard
           company={hundredDevs.company}
           logo={hundredDevs.logo}

@@ -22,9 +22,9 @@ function Skills() {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1.5 }}
-      className="h-scree flex relative flex-col justify-center items-center text-center xl:flex-row max-w-screen-2xl xl:px-10 min-h-screen xl:space-y-0 mx-auto"
+      className=" min-h-screen flex relative flex-col justify-center items-center text-center xl:flex-row max-w-screen-2xl xl:px-10 min-h-screen xl:space-y-0 mx-auto"
     >
-      <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
+      <h3 className="absolute top-20 md:top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
         skills
       </h3>
 
@@ -40,7 +40,7 @@ function Skills() {
         transition={{ duration: 1 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        className="grid grid-cols-4 gap-5"
+        className="grid grid-cols-4 gap-5 mt-16"
       >
         {/* initial=
         {{
@@ -49,10 +49,7 @@ function Skills() {
         }}
         transition={{ duration: 1 }}
         whileInView={{ opacity: 1, x: 0 }} */}
-        <SiCss3
-          isLeft
-          className="h-10 w-10 sm:h-24 sm:w-24 text-[#264de4] overflow-hidden"
-        />
+        <SiCss3 className="h-10 w-10 sm:h-24 sm:w-24 text-[#264de4] overflow-hidden" />
         <SiHtml5 className="h-10 w-10 sm:h-24 sm:w-24 text-[#e54c20]" />
         <SiJavascript className="h-10 w-10 sm:h-24 sm:w-24 text-[#f7df1b]" />
         <SiReact className="h-10 w-10 sm:h-24 sm:w-24 text-[#67dbf9]" />

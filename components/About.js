@@ -9,9 +9,9 @@ function About() {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1.5 }}
-      className="h-screen flex flex-col relative text-center md:text-left md:flex-row max-w-screen-xl px-10 mx-auto justify-center gap-6 md:gap-0 lg:gap-20 items-center"
+      className="min-h-screen flex flex-col relative text-center md:text-left md:flex-row max-w-screen-xl px-10 mx-auto justify-center gap-6 md:gap-0 lg:gap-20 items-center"
     >
-      <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
+      <h3 className="absolute top-20 md:top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
         About
       </h3>
       <motion.div
@@ -24,7 +24,7 @@ function About() {
         }}
         whileInView={{ opacity: 1, x: 0 }}
         viewport={{ once: true }}
-        className=" relative mt-20 w-32 h-32 md:w-96 md:mt-0 rounded-full overflow-hidden md:h-96 md:rounded-md flex-shrink-0"
+        className=" relative mt-20 w-32 h-32 md:w-96 md:mt-16 rounded-full overflow-hidden md:h-96 md:rounded-md flex-shrink-0"
       >
         <motion.img
           className="absolute -top-52 h-[700px] w-[700px] xl:h-full xl:w-full xl:top-0 object-cover "
@@ -42,7 +42,7 @@ function About() {
         }}
         whileInView={{ opacity: 1, x: 0 }}
         viewport={{ once: true }}
-        className=" space-y-4 md:space-y-10 px-0 md:px-10 lg:max-w-[45%]"
+        className=" space-y-4 md:space-y-10 md:mt-16 px-0 md:px-10 lg:max-w-[45%]"
       >
         <h4 className="text-4xl font-semibold">
           Here is a{' '}

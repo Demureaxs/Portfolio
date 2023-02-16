@@ -21,13 +21,13 @@ function Projects() {
       initialize={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1.5 }}
-      className="h-screen relative flex overflow-hidden flex-col justify-center items-center text-center md:flex-row max-w-screen-xl mx-auto"
+      className="min-h-screen relative flex overflow-hidden flex-col justify-center items-center text-center md:flex-row max-w-screen-xl mx-auto"
     >
       <h3 className="absolute top-20 sm:top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
         Projects
       </h3>
 
-      <div className="w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory z-10 scrollbar-thin scrollbar-track-gray-500/20 scrollbar-thumb-[#faab0a]/60">
+      <div className="w-full flex space-x-5 mb-16 overflow-x-scroll p-10 snap-x snap-mandatory z-10 scrollbar-thin scrollbar-track-gray-500/20 scrollbar-thumb-[#faab0a]/60">
         <div className="flex flex-col justify-center items-center w-screen flex-shrink-0 mt-16 sm:mt-36 space-y-10 rounded-sm overflow-hidden snap-center">
           <motion.img
             initial={{

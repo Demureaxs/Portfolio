@@ -17,12 +17,12 @@ function ContactMe() {
   };
 
   return (
-    <div className="h-screen flex relative flex-col text-center md:flex-row max-w-7xl px-10 justify-evenly items-center mx-auto">
-      <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
+    <div className="min-h-screen flex relative flex-col text-center md:flex-row max-w-7xl px-10 justify-evenly items-center mx-auto">
+      <h3 className="absolute top-20 md:top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
         Contact
       </h3>
 
-      <div className="flex flex-col space-y-4 mt-24  md:space-y-10">
+      <div className="flex flex-col space-y-4 mt-44 pb-16  md:space-y-10">
         <h4 className=" text-2xl sm:text-4xl font-semibold text-center">
           I can help bring your ideas to life,{' '}
           <span className="decoration-[#f7ab0a]/50 underline">Lets Talk</span>
